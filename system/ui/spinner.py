@@ -12,10 +12,10 @@ from openpilot.system.ui.sunnypilot.lib.application import gui_app_sp
 
 # Constants
 PROGRESS_BAR_WIDTH = 1000
-PROGRESS_BAR_HEIGHT = 20
+PROGRESS_BAR_HEIGHT = 50
 DEGREES_PER_SECOND = 360.0  # one full rotation per second
 MARGIN_H = 100
-TEXTURE_SIZE = 360
+TEXTURE_SIZE = 480
 FONT_SIZE = 96
 LINE_HEIGHT = 104
 DARKGRAY = (55, 55, 55, 255)
@@ -62,9 +62,7 @@ class Spinner(Widget):
     self._rotation = (self._rotation + DEGREES_PER_SECOND * delta_time) % 360.0
 
     # Draw rotating spinner and static comma logo
-    rl.draw_texture_pro(self._spinner_texture, rl.Rectangle(0, 0, TEXTURE_SIZE, TEXTURE_SIZE),
-                        rl.Rectangle(center.x, center.y, TEXTURE_SIZE, TEXTURE_SIZE),
-                        spinner_origin, self._rotation, rl.WHITE)
+
     rl.draw_texture_v(self._comma_texture, comma_position, rl.WHITE)
 
     # Display the progress bar or text based on user input
@@ -103,7 +101,7 @@ def main():
     if text_list:
       spinner.set_text(text_list[-1])
 
-    spinner.render(rl.Rectangle(0, 0, gui_app.width, gui_app.height))
+    spinner.render(rl.Rectangle(10, 0, gui_app.width, gui_app.height))
 
 
 if __name__ == "__main__":

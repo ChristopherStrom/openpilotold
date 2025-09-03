@@ -172,7 +172,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
         <translation>拒绝并卸载%1</translation>
     </message>
     <message>
-        <source>You must accept the Terms and Conditions in order to use sunnypilot.</source>
+        <source>You must accept the Terms and Conditions in order to use CyberPilot.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -203,7 +203,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
         <translation>ADB（Android调试桥接）允许通过USB或网络连接到您的设备。更多信息请参见 [https://docs.comma.ai/how-to/connect-to-comma](https://docs.comma.ai/how-to/connect-to-comma)。</translation>
     </message>
     <message>
-        <source>On this car, sunnypilot defaults to the car&apos;s built-in ACC instead of openpilot&apos;s longitudinal control. Enable this to switch to openpilot longitudinal control. Enabling Experimental mode is recommended when enabling openpilot longitudinal control alpha.</source>
+        <source>On this car, CyberPilot defaults to the car&apos;s built-in ACC instead of openpilot&apos;s longitudinal control. Enable this to switch to openpilot longitudinal control. Enabling Experimental mode is recommended when enabling openpilot longitudinal control alpha.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -214,7 +214,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Toggle visibility of advanced sunnypilot controls.
+        <source>Toggle visibility of advanced CyberPilot controls.
 This only toggles the visibility of the controls; it does not toggle the actual control enabled/disabled state.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -239,7 +239,7 @@ This only toggles the visibility of the controls; it does not toggle the actual 
         <translation type="unfinished">查看</translation>
     </message>
     <message>
-        <source>View the error log for sunnypilot crashes.</source>
+        <source>View the error log for CyberPilot crashes.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -418,11 +418,11 @@ Steering lag calibration is complete.</source>
         <translation> 转向扭矩响应校准已完成。</translation>
     </message>
     <message>
-        <source>Review the rules, features, and limitations of sunnypilot</source>
+        <source>Review the rules, features, and limitations of CyberPilot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>sunnypilot requires the device to be mounted within 4° left or right and within 5° up or 9° down.</source>
+        <source>CyberPilot requires the device to be mounted within 4° left or right and within 5° up or 9° down.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -506,7 +506,7 @@ This is the time after which settings UI closes automatically if user is not int
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Are you sure you want to reset all sunnypilot settings to default? Once the settings are reset, there is no going back.</source>
+        <source>Are you sure you want to reset all CyberPilot settings to default? Once the settings are reset, there is no going back.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -623,13 +623,13 @@ This is the time after which settings UI closes automatically if user is not int
         <translation>Firehose 模式</translation>
     </message>
     <message>
-        <source>sunnypilot learns to drive by watching humans, like you, drive.
+        <source>CyberPilot learns to drive by watching humans, like you, drive.
 
 Firehose Mode allows you to maximize your training data uploads to improve openpilot&apos;s driving models. More data means bigger models, which means better Experimental Mode.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>For maximum effectiveness, bring your device inside and connect to a good USB-C adapter and Wi-Fi weekly.&lt;br&gt;&lt;br&gt;Firehose Mode can also work while you&apos;re driving if connected to a hotspot or unlimited SIM card.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Frequently Asked Questions&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Does it matter how or where I drive?&lt;/i&gt; Nope, just drive as you normally would.&lt;br&gt;&lt;br&gt;&lt;i&gt;Do all of my segments get pulled in Firehose Mode?&lt;/i&gt; No, we selectively pull a subset of your segments.&lt;br&gt;&lt;br&gt;&lt;i&gt;What&apos;s a good USB-C adapter?&lt;/i&gt; Any fast phone or laptop charger should be fine.&lt;br&gt;&lt;br&gt;&lt;i&gt;Does it matter which software I run?&lt;/i&gt; Yes, only upstream sunnypilot (and particular forks) are able to be used for training.</source>
+        <source>For maximum effectiveness, bring your device inside and connect to a good USB-C adapter and Wi-Fi weekly.&lt;br&gt;&lt;br&gt;Firehose Mode can also work while you&apos;re driving if connected to a hotspot or unlimited SIM card.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Frequently Asked Questions&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Does it matter how or where I drive?&lt;/i&gt; Nope, just drive as you normally would.&lt;br&gt;&lt;br&gt;&lt;i&gt;Do all of my segments get pulled in Firehose Mode?&lt;/i&gt; No, we selectively pull a subset of your segments.&lt;br&gt;&lt;br&gt;&lt;i&gt;What&apos;s a good USB-C adapter?&lt;/i&gt; Any fast phone or laptop charger should be fine.&lt;br&gt;&lt;br&gt;&lt;i&gt;Does it matter which software I run?&lt;/i&gt; Yes, only upstream CyberPilot (and particular forks) are able to be used for training.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -726,7 +726,7 @@ Firehose Mode allows you to maximize your training data uploads to improve openp
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enable the beloved MADS feature. Disable toggle to revert back to stock sunnypilot engagement/disengagement.</source>
+        <source>Enable the beloved MADS feature. Disable toggle to revert back to stock CyberPilot engagement/disengagement.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -852,7 +852,7 @@ Firehose Mode allows you to maximize your training data uploads to improve openp
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Choose how Automatic Lane Centering (ALC) behaves after the brake pedal is manually pressed in sunnypilot.</source>
+        <source>Choose how Automatic Lane Centering (ALC) behaves after the brake pedal is manually pressed in CyberPilot.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1127,7 +1127,7 @@ The default software delay value is 0.2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Reach out to the sunnypilot team in the following channel at the sunnypilot Discord server</source>
+        <source>Reach out to the CyberPilot team in the following channel at the CyberPilot Discord server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1184,19 +1184,19 @@ The default software delay value is 0.2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Immediately connect to the internet to check for updates. If you do not connect to the internet, sunnypilot won&apos;t engage in %1</source>
+        <source>Immediately connect to the internet to check for updates. If you do not connect to the internet, CyberPilot won&apos;t engage in %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Connect to internet to check for updates. sunnypilot won&apos;t automatically start until it connects to internet to check for updates.</source>
+        <source>Connect to internet to check for updates. CyberPilot won&apos;t automatically start until it connects to internet to check for updates.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>sunnypilot was unable to identify your car. Your car is either unsupported or its ECUs are not recognized. Please submit a pull request to add the firmware versions to the proper vehicle. Need help? Join discord.comma.ai.</source>
+        <source>CyberPilot was unable to identify your car. Your car is either unsupported or its ECUs are not recognized. Please submit a pull request to add the firmware versions to the proper vehicle. Need help? Join discord.comma.ai.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>sunnypilot detected a change in the device&apos;s mounting position. Ensure the device is fully seated in the mount and the mount is firmly secured to the windshield.</source>
+        <source>CyberPilot detected a change in the device&apos;s mounting position. Ensure the device is fully seated in the mount and the mount is firmly secured to the windshield.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1247,7 +1247,7 @@ The default software delay value is 0.2</source>
         <translation>系统无响应</translation>
     </message>
     <message>
-        <source>sunnypilot Unavailable</source>
+        <source>CyberPilot Unavailable</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1573,7 +1573,7 @@ Warning: You are on a metered connection!</source>
         <translation>现在</translation>
     </message>
     <message>
-        <source>sunnypilot</source>
+        <source>CyberPilot</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1971,7 +1971,7 @@ Warning: You are on a metered connection!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Become a sponsor of sunnypilot to get early access to sunnylink features when they become available.</source>
+        <source>Become a sponsor of CyberPilot to get early access to sunnylink features when they become available.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2007,7 +2007,7 @@ Warning: You are on a metered connection!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Are you sure you want to backup sunnypilot settings?</source>
+        <source>Are you sure you want to backup CyberPilot settings?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2019,7 +2019,7 @@ Warning: You are on a metered connection!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Are you sure you want to restore the last backed up sunnypilot settings?</source>
+        <source>Are you sure you want to restore the last backed up CyberPilot settings?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2075,15 +2075,15 @@ Warning: You are on a metered connection!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enable sunnylink uploader to allow sunnypilot to upload your driving data to sunnypilot servers. (only for highest tiers, and does NOT bring ANY benefit to you. We are just testing data volume.)</source>
+        <source>Enable sunnylink uploader to allow CyberPilot to upload your driving data to CyberPilot servers. (only for highest tiers, and does NOT bring ANY benefit to you. We are just testing data volume.)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>[Don&apos;t use] Enable sunnylink uploader</source>
+        <source>[Don&apos;t use] Enable CyberPilot uploader</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>🚀 sunnylink 🚀</source>
+        <source>🚀 CyberLink 🚀</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2134,7 +2134,7 @@ Warning: You are on a metered connection!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Early Access: Become a sunnypilot Sponsor</source>
+        <source>Early Access: Become a CyberPilot Sponsor</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2149,11 +2149,11 @@ Warning: You are on a metered connection!</source>
         <translation>同意</translation>
     </message>
     <message>
-        <source>Welcome to sunnypilot</source>
+        <source>Welcome to CyberPilot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>You must accept the Terms and Conditions to use sunnypilot. Read the latest terms at &lt;span style=&apos;color: #465BEA;&apos;&gt;https://comma.ai/terms&lt;/span&gt; before continuing.</source>
+        <source>You must accept the Terms and Conditions to use CyberPilot. Read the latest terms at &lt;span style=&apos;color: #465BEA;&apos;&gt;https://comma.ai/terms&lt;/span&gt; before continuing.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2244,11 +2244,11 @@ Warning: You are on a metered connection!</source>
         <translation>在驾驶时录制并存储麦克风音频。该音频将会包含在 comma connect 的行车记录仪视频中。</translation>
     </message>
     <message>
-        <source>Enable sunnypilot</source>
+        <source>Enable CyberPilot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Use the sunnypilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature.</source>
+        <source>Use the CyberPilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2256,35 +2256,35 @@ Warning: You are on a metered connection!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enable toggle to allow the model to determine when to use sunnypilot ACC or sunnypilot End to End Longitudinal.</source>
+        <source>Enable toggle to allow the model to determine when to use CyberPilot ACC or CyberPilot End to End Longitudinal.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>When enabled, pressing the accelerator pedal will disengage sunnypilot.</source>
+        <source>When enabled, pressing the accelerator pedal will disengage CyberPilot.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enable driver monitoring even when sunnypilot is not engaged.</source>
+        <source>Enable driver monitoring even when CyberPilot is not engaged.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Standard is recommended. In aggressive mode, sunnypilot will follow lead cars closer and be more aggressive with the gas and brake. In relaxed mode sunnypilot will stay further away from lead cars. On supported cars, you can cycle through these personalities with your steering wheel distance button.</source>
+        <source>Standard is recommended. In aggressive mode, CyberPilot will follow lead cars closer and be more aggressive with the gas and brake. In relaxed mode CyberPilot will stay further away from lead cars. On supported cars, you can cycle through these personalities with your steering wheel distance button.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>sunnypilot defaults to driving in &lt;b&gt;chill mode&lt;/b&gt;. Experimental mode enables &lt;b&gt;alpha-level features&lt;/b&gt; that aren&apos;t ready for chill mode. Experimental features are listed below:</source>
+        <source>CyberPilot defaults to driving in &lt;b&gt;chill mode&lt;/b&gt;. Experimental mode enables &lt;b&gt;alpha-level features&lt;/b&gt; that aren&apos;t ready for chill mode. Experimental features are listed below:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Let the driving model control the gas and brakes. sunnypilot will drive as it thinks a human would, including stopping for red lights and stop signs. Since the driving model decides the speed to drive, the set speed will only act as an upper bound. This is an alpha quality feature; mistakes should be expected.</source>
+        <source>Let the driving model control the gas and brakes. CyberPilot will drive as it thinks a human would, including stopping for red lights and stop signs. Since the driving model decides the speed to drive, the set speed will only act as an upper bound. This is an alpha quality feature; mistakes should be expected.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>An alpha version of sunnypilot longitudinal control can be tested, along with Experimental mode, on non-release branches.</source>
+        <source>An alpha version of CyberPilot longitudinal control can be tested, along with Experimental mode, on non-release branches.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enable the sunnypilot longitudinal control (alpha) toggle to allow Experimental mode.</source>
+        <source>Enable the CyberPilot longitudinal control (alpha) toggle to allow Experimental mode.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2300,7 +2300,7 @@ Warning: You are on a metered connection!</source>
     </message>
 </context>
 <context>
-    <name>VisualsPanel</name>
+    <name>VisualsPanel</name>CyberPilot
     <message>
         <source>Show Blind Spot Warnings</source>
         <translation type="unfinished"></translation>

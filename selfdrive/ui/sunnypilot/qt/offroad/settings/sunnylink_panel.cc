@@ -58,7 +58,7 @@ SunnylinkPanel::SunnylinkPanel(QWidget *parent) : QFrame(parent) {
   QString sunnylinkEnabledBtnDesc = tr("This is the master switch, it will allow you to cutoff any sunnylink requests should you want to do that.");
   sunnylinkEnabledBtn = new ParamControl(
     "SunnylinkEnabled",
-    tr("Enable sunnylink"),
+    tr("Enable CyberLink"),
     sunnylinkEnabledBtnDesc,
     "");
   list->addItem(sunnylinkEnabledBtn);

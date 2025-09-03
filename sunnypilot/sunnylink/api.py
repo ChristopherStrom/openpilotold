@@ -100,9 +100,9 @@ class SunnylinkApi(BaseApi):
         register_token = jwt.encode({'register': True, 'exp': datetime.utcnow() + timedelta(hours=1)}, private_key, algorithm='RS256')
         try:
           if verbose or time.monotonic() - start_time < timeout / 2:
-            self._status_update("Registering device to sunnylink...")
+            self._status_update("Registering device to CyberLink...")
           elif time.monotonic() - start_time >= timeout / 2:
-            self._status_update("Still registering device to sunnylink...")
+            self._status_update("Still registering device to CyberLink...")
 
           resp = self.api_get("v2/pilotauth/", method='POST', timeout=15, imei=imei1, imei2=imei2, serial=serial,
                               comma_dongle_id=comma_dongle_id, public_key=public_key, register_token=register_token)
@@ -118,7 +118,7 @@ class SunnylinkApi(BaseApi):
             raise Exception(error_message)
 
           if resp.status_code != 200:
-            raise Exception(f"Failed to register with sunnylink. Status code: {resp.status_code}\nData\n:{resp.text}")
+            raise Exception(f"Failed to register with CyberLink. Status code: {resp.status_code}\nData\n:{resp.text}")
 
           dongleauth = json.loads(resp.text)
           sunnylink_dongle_id = dongleauth["device_id"]
@@ -134,13 +134,13 @@ class SunnylinkApi(BaseApi):
             os.makedirs(CRASH_LOG_DIR)
 
           with open(f'{CRASH_LOG_DIR}/error.txt', 'a') as f:
-            f.write(f"[{datetime.now()}] sunnylink: {str(e)}\n")
+            f.write(f"[{datetime.now()}] CyberLink: {str(e)}\n")
 
           backoff = min(backoff * 2 * (0.5 + random.random()), 60)
           time.sleep(backoff)
 
         if time.monotonic() - start_time > timeout:
-          self._status_update(f"Giving up on sunnylink's registration after {timeout}s. Will retry on next boot.")
+          self._status_update(f"Giving up on CyberLink's registration after {timeout}s. Will retry on next boot.")
           time.sleep(3)
           break
 

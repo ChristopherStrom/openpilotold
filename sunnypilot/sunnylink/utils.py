@@ -35,7 +35,7 @@ def register_sunnylink():
   extra_args = {}
 
   if not Params().get_bool("SunnylinkEnabled"):
-    print("Sunnylink is not enabled. Exiting.")
+    print("CyberLink is not enabled. Exiting.")
     exit(0)
 
   if not is_prebuilt():
@@ -45,7 +45,7 @@ def register_sunnylink():
     }
 
   sunnylink_id = SunnylinkApi(None).register_device(None, **extra_args)
-  print(f"SunnyLinkId: {sunnylink_id}")
+  print(f"CyberLinkId: {sunnylink_id}")
 
 
 def get_api_token():
