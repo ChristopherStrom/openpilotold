@@ -8,10 +8,6 @@
         <translation>Fermer</translation>
     </message>
     <message>
-        <source>Snooze Update</source>
-        <translation>Reporter la mise à jour</translation>
-    </message>
-    <message>
         <source>Reboot and Update</source>
         <translation>Redémarrer et mettre à jour</translation>
     </message>
@@ -168,16 +164,16 @@ Please use caution when using this feature. Only use the blinker when traffic an
 <context>
     <name>DeclinePage</name>
     <message>
-        <source>You must accept the Terms and Conditions in order to use sunnypilot.</source>
-        <translation>Vous devez accepter les conditions générales pour utiliser sunnypilot.</translation>
-    </message>
-    <message>
         <source>Back</source>
         <translation>Retour</translation>
     </message>
     <message>
         <source>Decline, uninstall %1</source>
         <translation>Refuser, désinstaller %1</translation>
+    </message>
+    <message>
+        <source>You must accept the Terms and Conditions in order to use sunnypilot.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -191,19 +187,19 @@ Please use caution when using this feature. Only use the blinker when traffic an
         <translation>Mode manœuvre longitudinale</translation>
     </message>
     <message>
+        <source>openpilot Longitudinal Control (Alpha)</source>
+        <translation>Contrôle longitudinal openpilot (Alpha)</translation>
+    </message>
+    <message>
+        <source>WARNING: openpilot longitudinal control is in alpha for this car and will disable Automatic Emergency Braking (AEB).</source>
+        <translation>ATTENTION : le contrôle longitudinal openpilot est en alpha pour cette voiture et désactivera le freinage d&apos;urgence automatique (AEB).</translation>
+    </message>
+    <message>
         <source>Enable ADB</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>ADB (Android Debug Bridge) allows connecting to your device over USB or over the network. See https://docs.comma.ai/how-to/connect-to-comma for more info.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>openpilot Longitudinal Control (Alpha)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>WARNING: openpilot longitudinal control is in alpha for this car and will disable Automatic Emergency Braking (AEB).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -306,10 +302,6 @@ This only toggles the visibility of the controls; it does not toggle the actual 
         <translation>REVOIR</translation>
     </message>
     <message>
-        <source>Review the rules, features, and limitations of sunnypilot</source>
-        <translation>Revoir les règles, fonctionnalités et limitations d&apos;sunnypilot</translation>
-    </message>
-    <message>
         <source>Are you sure you want to review the training guide?</source>
         <translation>Êtes-vous sûr de vouloir revoir le guide de formation ?</translation>
     </message>
@@ -398,7 +390,7 @@ This only toggles the visibility of the controls; it does not toggle the actual 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>sunnypilot requires the device to be mounted within 4° left or right and within 5° up or 9° down.</source>
+        <source>openpilot is continuously calibrating, resetting is rarely required. Resetting calibration will restart openpilot if the car is powered on.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -422,12 +414,20 @@ Steering lag calibration is complete.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>openpilot is continuously calibrating, resetting is rarely required. Resetting calibration will restart openpilot if the car is powered on.</source>
+        <source>Review the rules, features, and limitations of sunnypilot</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>sunnypilot requires the device to be mounted within 4° left or right and within 5° up or 9° down.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>DevicePanelSP</name>
+    <message>
+        <source>Quiet Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message>
         <source>Driver Camera Preview</source>
         <translation type="unfinished"></translation>
@@ -445,6 +445,10 @@ Steering lag calibration is complete.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Reset Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Are you sure you want to review the training guide?</source>
         <translation type="unfinished">Êtes-vous sûr de vouloir revoir le guide de formation ?</translation>
     </message>
@@ -455,6 +459,19 @@ Steering lag calibration is complete.</source>
     <message>
         <source>Select a language</source>
         <translation type="unfinished">Choisir une langue</translation>
+    </message>
+    <message>
+        <source>Wake-Up Behavior</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Interactivity Timeout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply a custom timeout for settings UI.
+This is the time after which settings UI closes automatically if user is not interacting with the screen.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Reboot</source>
@@ -474,7 +491,7 @@ Steering lag calibration is complete.</source>
     </message>
     <message>
         <source>Confirm</source>
-        <translation type="unfinished">Confirmer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Are you sure you want to enter Always Offroad mode?</source>
@@ -482,22 +499,6 @@ Steering lag calibration is complete.</source>
     </message>
     <message>
         <source>Disengage to Enter Always Offroad Mode</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Exit Always Offroad</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Always Offroad</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Quiet Mode</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reset Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -513,16 +514,11 @@ Steering lag calibration is complete.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Wake-Up Behavior</source>
+        <source>Exit Always Offroad</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Interactivity Timeout</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Apply a custom timeout for settings UI.
-This is the time after which settings UI closes automatically if user is not interacting with the screen.</source>
+        <source>Always Offroad</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -580,7 +576,7 @@ This is the time after which settings UI closes automatically if user is not int
     </message>
     <message>
         <source>Confirm</source>
-        <translation type="unfinished">Confirmer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>EXIT ALWAYS OFFROAD MODE</source>
@@ -608,10 +604,6 @@ This is the time after which settings UI closes automatically if user is not int
         <source>ACTIVE</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <source>For maximum effectiveness, bring your device inside and connect to a good USB-C adapter and Wi-Fi weekly.&lt;br&gt;&lt;br&gt;Firehose Mode can also work while you&apos;re driving if connected to a hotspot or unlimited SIM card.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Frequently Asked Questions&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Does it matter how or where I drive?&lt;/i&gt; Nope, just drive as you normally would.&lt;br&gt;&lt;br&gt;&lt;i&gt;Do all of my segments get pulled in Firehose Mode?&lt;/i&gt; No, we selectively pull a subset of your segments.&lt;br&gt;&lt;br&gt;&lt;i&gt;What&apos;s a good USB-C adapter?&lt;/i&gt; Any fast phone or laptop charger should be fine.&lt;br&gt;&lt;br&gt;&lt;i&gt;Does it matter which software I run?&lt;/i&gt; Yes, only upstream sunnypilot (and particular forks) are able to be used for training.</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message numerus="yes">
         <source>&lt;b&gt;%n segment(s)&lt;/b&gt; of your driving is in the training dataset so far.</source>
         <translation type="unfinished">
@@ -620,17 +612,21 @@ This is the time after which settings UI closes automatically if user is not int
         </translation>
     </message>
     <message>
+        <source>&lt;span stylesheet=&apos;font-size: 60px; font-weight: bold; color: #e74c3c;&apos;&gt;INACTIVE&lt;/span&gt;: connect to an unmetered network</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Firehose Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>sunnypilot learns to drive by watching humans, like you, drive.
 
 Firehose Mode allows you to maximize your training data uploads to improve openpilot&apos;s driving models. More data means bigger models, which means better Experimental Mode.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;span stylesheet=&apos;font-size: 60px; font-weight: bold; color: #e74c3c;&apos;&gt;INACTIVE&lt;/span&gt;: connect to an unmetered network</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Firehose Mode</source>
+        <source>For maximum effectiveness, bring your device inside and connect to a good USB-C adapter and Wi-Fi weekly.&lt;br&gt;&lt;br&gt;Firehose Mode can also work while you&apos;re driving if connected to a hotspot or unlimited SIM card.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Frequently Asked Questions&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Does it matter how or where I drive?&lt;/i&gt; Nope, just drive as you normally would.&lt;br&gt;&lt;br&gt;&lt;i&gt;Do all of my segments get pulled in Firehose Mode?&lt;/i&gt; No, we selectively pull a subset of your segments.&lt;br&gt;&lt;br&gt;&lt;i&gt;What&apos;s a good USB-C adapter?&lt;/i&gt; Any fast phone or laptop charger should be fine.&lt;br&gt;&lt;br&gt;&lt;i&gt;Does it matter which software I run?&lt;/i&gt; Yes, only upstream sunnypilot (and particular forks) are able to be used for training.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -740,6 +736,14 @@ Firehose Mode allows you to maximize your training data uploads to improve openp
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Pause Lateral Control with Blinker</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pause lateral control with blinker when traveling below the desired speed selected.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Enables independent engagements of Automatic Lane Centering (ALC) and Adaptive Cruise Control (ACC).</source>
         <translation type="unfinished"></translation>
     </message>
@@ -753,14 +757,6 @@ Firehose Mode allows you to maximize your training data uploads to improve openp
     </message>
     <message>
         <source>This platform supports limited MADS settings.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Pause Lateral Control with Blinker</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Pause lateral control with blinker when traveling below the desired speed selected.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -794,11 +790,15 @@ Firehose Mode allows you to maximize your training data uploads to improve openp
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Note: For vehicles without LFA/LKAS button, disabling this will prevent lateral control engagement.</source>
+        <source>Unified Engagement Mode (UEM)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Unified Engagement Mode (UEM)</source>
+        <source>Steering Mode on Brake Pedal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Note: For vehicles without LFA/LKAS button, disabling this will prevent lateral control engagement.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -807,18 +807,6 @@ Firehose Mode allows you to maximize your training data uploads to improve openp
     </message>
     <message>
         <source>Note: Once lateral control is engaged via UEM, it will remain engaged until it is manually disabled via the MADS button or car shut off.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Remain Active</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Disengage</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Steering Mode on Brake Pedal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -838,6 +826,10 @@ Firehose Mode allows you to maximize your training data uploads to improve openp
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Remain Active</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Remain Active: ALC will remain active when the brake pedal is pressed.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -847,6 +839,10 @@ Firehose Mode allows you to maximize your training data uploads to improve openp
     </message>
     <message>
         <source>Pause: ALC will pause when the brake pedal is pressed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Disengage</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -896,66 +892,6 @@ Firehose Mode allows you to maximize your training data uploads to improve openp
         <translation type="unfinished">SÉLECTIONNER</translation>
     </message>
     <message>
-        <source>downloaded</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>ready</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>from cache</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Fetching models...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Select a Model</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Default</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Model download has started in the background.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>We STRONGLY suggest you to reset calibration.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Would you like to do that now?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reset Calibration</source>
-        <translation type="unfinished">Réinitialiser la calibration</translation>
-    </message>
-    <message>
-        <source>Driving Model Selector</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Warning: You are on a metered connection!</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Continue</source>
-        <translation type="unfinished">Continuer</translation>
-    </message>
-    <message>
-        <source>on Metered</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="unfinished">Annuler</translation>
-    </message>
-    <message>
         <source>Clear Model Cache</source>
         <translation type="unfinished"></translation>
     </message>
@@ -997,6 +933,18 @@ The default software delay value is 0.2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>downloaded</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>from cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>  download failed - %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1005,11 +953,35 @@ The default software delay value is 0.2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enable this for the car to learn and adapt its steering response time. Disable to use a fixed steering response time. Keeping this on provides the stock openpilot experience. The Current value is updated automatically when the vehicle is Onroad.</source>
+        <source>Fetching models...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Current:</source>
+        <source>Select a Model</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Model download has started in the background.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>We STRONGLY suggest you to reset calibration.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Would you like to do that now?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reset Calibration</source>
+        <translation type="unfinished">Réinitialiser la calibration</translation>
+    </message>
+    <message>
+        <source>Driving Model Selector</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1018,6 +990,54 @@ The default software delay value is 0.2</source>
     </message>
     <message>
         <source>Clear Cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Warning: You are on a metered connection!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Continue</source>
+        <translation type="unfinished">Continuer</translation>
+    </message>
+    <message>
+        <source>on Metered</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Annuler</translation>
+    </message>
+    <message>
+        <source>Refresh Model List</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>REFRESH</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fetching Latest Models</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable this for the car to learn and adapt its steering response time. Disable to use a fixed steering response time. Keeping this on provides the stock openpilot experience.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Live Steer Delay:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Actuator Delay:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Software Delay:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Total Delay:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1128,14 +1148,6 @@ The default software delay value is 0.2</source>
         <translation>Température de l&apos;appareil trop élevée. Le système doit refroidir avant de démarrer. Température actuelle de l&apos;appareil : %1</translation>
     </message>
     <message>
-        <source>Immediately connect to the internet to check for updates. If you do not connect to the internet, sunnypilot won&apos;t engage in %1</source>
-        <translation>Connectez-vous immédiatement à internet pour vérifier les mises à jour. Si vous ne vous connectez pas à internet, sunnypilot ne s&apos;engagera pas dans %1</translation>
-    </message>
-    <message>
-        <source>Connect to internet to check for updates. sunnypilot won&apos;t automatically start until it connects to internet to check for updates.</source>
-        <translation>Connectez l&apos;appareil à internet pour vérifier les mises à jour. sunnypilot ne démarrera pas automatiquement tant qu&apos;il ne se connecte pas à internet pour vérifier les mises à jour.</translation>
-    </message>
-    <message>
         <source>Unable to download updates
 %1</source>
         <translation>Impossible de télécharger les mises à jour
@@ -1150,24 +1162,40 @@ The default software delay value is 0.2</source>
         <translation>Une mise à jour du système d&apos;exploitation de votre appareil est en cours de téléchargement en arrière-plan. Vous serez invité à effectuer la mise à jour lorsqu&apos;elle sera prête à être installée.</translation>
     </message>
     <message>
-        <source>Device failed to register. It will not connect to or upload to comma.ai servers, and receives no support from comma.ai. If this is an official device, visit https://comma.ai/support.</source>
-        <translation>L&apos;appareil n&apos;a pas réussi à s&apos;enregistrer. Il ne se connectera pas aux serveurs de comma.ai, n&apos;enverra rien et ne recevra aucune assistance de comma.ai. S&apos;il s&apos;agit d&apos;un appareil officiel, visitez https://comma.ai/support.</translation>
-    </message>
-    <message>
         <source>NVMe drive not mounted.</source>
         <translation>Le disque NVMe n&apos;est pas monté.</translation>
     </message>
     <message>
-        <source>Unsupported NVMe drive detected. Device may draw significantly more power and overheat due to the unsupported NVMe.</source>
-        <translation>Disque NVMe non supporté détecté. L&apos;appareil peut consommer beaucoup plus d&apos;énergie et surchauffer en raison du NVMe non supporté.</translation>
+        <source>Device failed to register with the comma.ai backend. It will not connect or upload to comma.ai servers, and receives no support from comma.ai. If this is a device purchased at comma.ai/shop, open a ticket at https://comma.ai/support.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Acknowledge Excessive Actuation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Snooze Update</source>
+        <translation type="unfinished">Reporter la mise à jour</translation>
+    </message>
+    <message>
+        <source>openpilot detected excessive %1 actuation on your last drive. Please contact support at https://comma.ai/support and share your device&apos;s Dongle ID for troubleshooting.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Immediately connect to the internet to check for updates. If you do not connect to the internet, sunnypilot won&apos;t engage in %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Connect to internet to check for updates. sunnypilot won&apos;t automatically start until it connects to internet to check for updates.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>sunnypilot was unable to identify your car. Your car is either unsupported or its ECUs are not recognized. Please submit a pull request to add the firmware versions to the proper vehicle. Need help? Join discord.comma.ai.</source>
-        <translation>sunnypilot n&apos;a pas pu identifier votre voiture. Votre voiture n&apos;est pas supportée ou ses ECUs ne sont pas reconnues. Veuillez soumettre un pull request pour ajouter les versions de firmware au véhicule approprié. Besoin d&apos;aide ? Rejoignez discord.comma.ai.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>sunnypilot detected a change in the device&apos;s mounting position. Ensure the device is fully seated in the mount and the mount is firmly secured to the windshield.</source>
-        <translation>sunnypilot a détecté un changement dans la position de montage de l&apos;appareil. Assurez-vous que l&apos;appareil est totalement inséré dans le support et que le support est fermement fixé au pare-brise.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>OpenStreetMap database is out of date. New maps must be downloaded if you wish to continue using OpenStreetMap data for Enhanced Speed Control and road name display.
@@ -1201,10 +1229,6 @@ The default software delay value is 0.2</source>
 <context>
     <name>OnroadAlerts</name>
     <message>
-        <source>sunnypilot Unavailable</source>
-        <translation>sunnypilot indisponible</translation>
-    </message>
-    <message>
         <source>TAKE CONTROL IMMEDIATELY</source>
         <translation>REPRENEZ LE CONTRÔLE IMMÉDIATEMENT</translation>
     </message>
@@ -1219,6 +1243,10 @@ The default software delay value is 0.2</source>
     <message>
         <source>System Unresponsive</source>
         <translation>Système inopérant</translation>
+    </message>
+    <message>
+        <source>sunnypilot Unavailable</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1437,7 +1465,7 @@ Warning: You are on a metered connection!</source>
     </message>
     <message>
         <source>Confirm</source>
-        <translation type="unfinished">Confirmer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -1520,10 +1548,6 @@ Warning: You are on a metered connection!</source>
 </context>
 <context>
     <name>QObject</name>
-    <message>
-        <source>sunnypilot</source>
-        <translation>sunnypilot</translation>
-    </message>
     <message numerus="yes">
         <source>%n minute(s) ago</source>
         <translation>
@@ -1549,46 +1573,9 @@ Warning: You are on a metered connection!</source>
         <source>now</source>
         <translation>maintenant</translation>
     </message>
-</context>
-<context>
-    <name>Reset</name>
     <message>
-        <source>Reset failed. Reboot to try again.</source>
-        <translation>Réinitialisation échouée. Redémarrez pour réessayer.</translation>
-    </message>
-    <message>
-        <source>Resetting device...
-This may take up to a minute.</source>
-        <translation>Réinitialisation de l&apos;appareil...
-Cela peut prendre jusqu&apos;à une minute.</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to reset your device?</source>
-        <translation>Êtes-vous sûr de vouloir réinitialiser votre appareil ?</translation>
-    </message>
-    <message>
-        <source>System Reset</source>
-        <translation>Réinitialisation du système</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Annuler</translation>
-    </message>
-    <message>
-        <source>Reboot</source>
-        <translation>Redémarrer</translation>
-    </message>
-    <message>
-        <source>Confirm</source>
-        <translation>Confirmer</translation>
-    </message>
-    <message>
-        <source>Unable to mount data partition. Partition may be corrupted. Press confirm to erase and reset your device.</source>
-        <translation>Impossible de monter la partition data. La partition peut être corrompue. Appuyez sur confirmer pour effacer et réinitialiser votre appareil.</translation>
-    </message>
-    <message>
-        <source>System reset triggered. Press confirm to erase all content and settings. Press cancel to resume boot.</source>
-        <translation>Réinitialisation système déclenchée. Appuyez sur confirmer pour effacer tout le contenu et les paramètres. Appuyez sur annuler pour reprendre le démarrage.</translation>
+        <source>sunnypilot</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1649,27 +1636,11 @@ Cela peut prendre jusqu&apos;à une minute.</translation>
         <translation type="unfinished">Logiciel</translation>
     </message>
     <message>
-        <source>Trips</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Vehicle</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Developer</source>
-        <translation type="unfinished">Dév.</translation>
-    </message>
-    <message>
-        <source>Firehose</source>
+        <source>Models</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Steering</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Models</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1684,110 +1655,21 @@ Cela peut prendre jusqu&apos;à une minute.</translation>
         <source>OSM</source>
         <translation type="unfinished"></translation>
     </message>
-</context>
-<context>
-    <name>Setup</name>
     <message>
-        <source>Something went wrong. Reboot the device.</source>
-        <translation>Un problème est survenu. Redémarrez l&apos;appareil.</translation>
-    </message>
-    <message>
-        <source>Ensure the entered URL is valid, and the device’s internet connection is good.</source>
-        <translation>Assurez-vous que l&apos;URL saisie est valide et que la connexion internet de l&apos;appareil est bonne.</translation>
-    </message>
-    <message>
-        <source>No custom software found at this URL.</source>
-        <translation>Aucun logiciel personnalisé trouvé à cette URL.</translation>
-    </message>
-    <message>
-        <source>WARNING: Low Voltage</source>
-        <translation>ATTENTION : Tension faible</translation>
-    </message>
-    <message>
-        <source>Power your device in a car with a harness or proceed at your own risk.</source>
-        <translation>Alimentez votre appareil dans une voiture avec un harness ou continuez à vos risques et périls.</translation>
-    </message>
-    <message>
-        <source>Power off</source>
-        <translation>Éteindre</translation>
-    </message>
-    <message>
-        <source>Continue</source>
-        <translation>Continuer</translation>
-    </message>
-    <message>
-        <source>Getting Started</source>
-        <translation>Commencer</translation>
-    </message>
-    <message>
-        <source>Before we get on the road, let’s finish installation and cover some details.</source>
-        <translation>Avant de prendre la route, terminons l&apos;installation et passons en revue quelques détails.</translation>
-    </message>
-    <message>
-        <source>Connect to Wi-Fi</source>
-        <translation>Se connecter au Wi-Fi</translation>
-    </message>
-    <message>
-        <source>Back</source>
-        <translation>Retour</translation>
-    </message>
-    <message>
-        <source>Enter URL</source>
-        <translation>Entrer l&apos;URL</translation>
-    </message>
-    <message>
-        <source>for Custom Software</source>
-        <translation>pour logiciel personnalisé</translation>
-    </message>
-    <message>
-        <source>Continue without Wi-Fi</source>
-        <translation>Continuer sans Wi-Fi</translation>
-    </message>
-    <message>
-        <source>Waiting for internet</source>
-        <translation>En attente d&apos;internet</translation>
-    </message>
-    <message>
-        <source>Downloading...</source>
-        <translation>Téléchargement...</translation>
-    </message>
-    <message>
-        <source>Download Failed</source>
-        <translation>Échec du téléchargement</translation>
-    </message>
-    <message>
-        <source>Reboot device</source>
-        <translation>Redémarrer l&apos;appareil</translation>
-    </message>
-    <message>
-        <source>Start over</source>
-        <translation>Recommencer</translation>
-    </message>
-    <message>
-        <source>Select a language</source>
-        <translation>Choisir une langue</translation>
-    </message>
-    <message>
-        <source>Choose Software to Install</source>
-        <translation>Choisir le logiciel à installer</translation>
-    </message>
-    <message>
-        <source>sunnypilot</source>
-        <translation>sunnypilot</translation>
-    </message>
-    <message>
-        <source>Custom Software</source>
-        <translation>Logiciel personnalisé</translation>
-    </message>
-    <message>
-        <source>WARNING: Custom Software</source>
+        <source>Trips</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Use caution when installing third-party software. Third-party software has not been tested by comma, and may cause damage to your device and/or vehicle.
-
-If you&apos;d like to proceed, use https://flash.comma.ai to restore your device to a factory state later.</source>
+        <source>Vehicle</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Firehose</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Developer</source>
+        <translation type="unfinished">Dév.</translation>
     </message>
 </context>
 <context>
@@ -1993,20 +1875,20 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>No branches found for keywords: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Select a branch</source>
-        <translation type="unfinished">Sélectionner une branche</translation>
-    </message>
-    <message>
         <source>Disable Updates</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>When enabled, software updates will be disabled. &lt;b&gt;This requires a reboot to take effect.&lt;/b&gt;</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No branches found for keywords: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select a branch</source>
+        <translation type="unfinished">Sélectionner une branche</translation>
     </message>
     <message>
         <source>%1 updates requires a reboot.&lt;br&gt;Reboot now?</source>
@@ -2082,22 +1964,6 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>🎉Welcome back! We&apos;re excited to see you&apos;ve enabled sunnylink again! 🚀</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>👋Not going to lie, it&apos;s sad to see you disabled sunnylink 😢, but we&apos;ll be here when you&apos;re ready to come back 🎉.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Device ID</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>N/A</source>
-        <translation type="unfinished">N/A</translation>
-    </message>
-    <message>
         <source>Sponsor Status</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2122,23 +1988,19 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>N/A</source>
+        <translation type="unfinished">N/A</translation>
+    </message>
+    <message>
         <source>sunnylink Dongle ID not found. This may be due to weak internet connection or sunnylink registration issue. Please reboot and try again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Not Sponsor</source>
+        <source>🎉Welcome back! We&apos;re excited to see you&apos;ve enabled sunnylink again! 🚀</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Paired</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Not Paired</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>THANKS ♥</source>
+        <source>👋Not going to lie, it&apos;s sad to see you disabled sunnylink 😢, but we&apos;ll be here when you&apos;re ready to come back 🎉.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2191,6 +2053,50 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
     </message>
     <message>
         <source>Settings restored. Confirm to restart the interface.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Device ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>THANKS ♥</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not Sponsor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Paired</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not Paired</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable sunnylink uploader to allow sunnypilot to upload your driving data to sunnypilot servers. (only for highest tiers, and does NOT bring ANY benefit to you. We are just testing data volume.)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[Don&apos;t use] Enable sunnylink uploader</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>🚀 sunnylink 🚀</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>For secure backup, restore, and remote configuration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sponsorship isn&apos;t required for basic backup/restore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click the sponsor button for more details</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2263,10 +2169,6 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
         <translation>Désengager avec la pédale d&apos;accélérateur</translation>
     </message>
     <message>
-        <source>When enabled, pressing the accelerator pedal will disengage sunnypilot.</source>
-        <translation>Lorsqu&apos;il est activé, appuyer sur la pédale d&apos;accélérateur désengagera sunnypilot.</translation>
-    </message>
-    <message>
         <source>Enable Lane Departure Warnings</source>
         <translation>Activer les avertissements de sortie de voie</translation>
     </message>
@@ -2307,14 +2209,6 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
         <translation>Personnalité de conduite</translation>
     </message>
     <message>
-        <source>sunnypilot defaults to driving in &lt;b&gt;chill mode&lt;/b&gt;. Experimental mode enables &lt;b&gt;alpha-level features&lt;/b&gt; that aren&apos;t ready for chill mode. Experimental features are listed below:</source>
-        <translation>Par défaut, sunnypilot conduit en &lt;b&gt;mode détente&lt;/b&gt;. Le mode expérimental permet d&apos;activer des &lt;b&gt;fonctionnalités alpha&lt;/b&gt; qui ne sont pas prêtes pour le mode détente. Les fonctionnalités expérimentales sont listées ci-dessous :</translation>
-    </message>
-    <message>
-        <source>Let the driving model control the gas and brakes. sunnypilot will drive as it thinks a human would, including stopping for red lights and stop signs. Since the driving model decides the speed to drive, the set speed will only act as an upper bound. This is an alpha quality feature; mistakes should be expected.</source>
-        <translation>Laissez le modèle de conduite contrôler l&apos;accélérateur et les freins. sunnypilot conduira comme il pense qu&apos;un humain le ferait, y compris s&apos;arrêter aux feux rouges et aux panneaux stop. Comme le modèle de conduite décide de la vitesse à adopter, la vitesse définie ne servira que de limite supérieure. Cette fonctionnalité est de qualité alpha ; des erreurs sont à prévoir.</translation>
-    </message>
-    <message>
         <source>New Driving Visualization</source>
         <translation>Nouvelle visualisation de la conduite</translation>
     </message>
@@ -2323,20 +2217,12 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
         <translation>Le mode expérimental est actuellement indisponible pour cette voiture car le régulateur de vitesse adaptatif d&apos;origine est utilisé pour le contrôle longitudinal.</translation>
     </message>
     <message>
-        <source>An alpha version of sunnypilot longitudinal control can be tested, along with Experimental mode, on non-release branches.</source>
-        <translation>Une version alpha du contrôle longitudinal sunnypilot peut être testée, avec le mode expérimental, sur des branches non publiées.</translation>
+        <source>openpilot longitudinal control may come in a future update.</source>
+        <translation>Le contrôle longitudinal openpilot pourrait être disponible dans une future mise à jour.</translation>
     </message>
     <message>
         <source>End-to-End Longitudinal Control</source>
         <translation>Contrôle longitudinal de bout en bout</translation>
-    </message>
-    <message>
-        <source>Enable the sunnypilot longitudinal control (alpha) toggle to allow Experimental mode.</source>
-        <translation>Activer le contrôle longitudinal d&apos;sunnypilot (en alpha) pour autoriser le mode expérimental.</translation>
-    </message>
-    <message>
-        <source>Standard is recommended. In aggressive mode, sunnypilot will follow lead cars closer and be more aggressive with the gas and brake. In relaxed mode sunnypilot will stay further away from lead cars. On supported cars, you can cycle through these personalities with your steering wheel distance button.</source>
-        <translation>Le mode Standard est recommandé. En mode Agressif, sunnypilot suivra les véhicules de plus près et sera plus dynamique avec l&apos;accélérateur et le frein. En mode Détendu, sunnypilot maintiendra une distance plus importante avec les véhicules qui précèdent. Sur les véhicules compatibles, vous pouvez alterner entre ces personnalités à l&apos;aide du bouton de distance au volant.</translation>
     </message>
     <message>
         <source>The driving visualization will transition to the road-facing wide-angle camera at low speeds to better show some turns. The Experimental mode logo will also be shown in the top right corner.</source>
@@ -2347,8 +2233,24 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
         <translation>Surveillance continue du conducteur</translation>
     </message>
     <message>
-        <source>Enable driver monitoring even when sunnypilot is not engaged.</source>
-        <translation>Activer la surveillance conducteur lorsque sunnypilot n&apos;est pas actif.</translation>
+        <source> Changing this setting will restart openpilot if the car is powered on.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Record and Upload Microphone Audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Record and store microphone audio while driving. The audio will be included in the dashcam video in comma connect.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable sunnypilot</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use the sunnypilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Enable Dynamic Experimental Control</source>
@@ -2359,27 +2261,31 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enable sunnypilot</source>
-        <translation>Activer sunnypilot</translation>
-    </message>
-    <message>
-        <source>Use the sunnypilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature.</source>
+        <source>When enabled, pressing the accelerator pedal will disengage sunnypilot.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source> Changing this setting will restart openpilot if the car is powered on.</source>
+        <source>Enable driver monitoring even when sunnypilot is not engaged.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>openpilot longitudinal control may come in a future update.</source>
+        <source>Standard is recommended. In aggressive mode, sunnypilot will follow lead cars closer and be more aggressive with the gas and brake. In relaxed mode sunnypilot will stay further away from lead cars. On supported cars, you can cycle through these personalities with your steering wheel distance button.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Record and Upload Microphone Audio</source>
+        <source>sunnypilot defaults to driving in &lt;b&gt;chill mode&lt;/b&gt;. Experimental mode enables &lt;b&gt;alpha-level features&lt;/b&gt; that aren&apos;t ready for chill mode. Experimental features are listed below:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Record and store microphone audio while driving. The audio will be included in the dashcam video in comma connect.</source>
+        <source>Let the driving model control the gas and brakes. sunnypilot will drive as it thinks a human would, including stopping for red lights and stop signs. Since the driving model decides the speed to drive, the set speed will only act as an upper bound. This is an alpha quality feature; mistakes should be expected.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An alpha version of sunnypilot longitudinal control can be tested, along with Experimental mode, on non-release branches.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable the sunnypilot longitudinal control (alpha) toggle to allow Experimental mode.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2392,41 +2298,6 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
     <message>
         <source>Cancel</source>
         <translation type="unfinished">Annuler</translation>
-    </message>
-</context>
-<context>
-    <name>Updater</name>
-    <message>
-        <source>Update Required</source>
-        <translation>Mise à jour requise</translation>
-    </message>
-    <message>
-        <source>An operating system update is required. Connect your device to Wi-Fi for the fastest update experience. The download size is approximately 1GB.</source>
-        <translation>Une mise à jour du système d&apos;exploitation est requise. Connectez votre appareil au Wi-Fi pour une mise à jour plus rapide. La taille du téléchargement est d&apos;environ 1 Go.</translation>
-    </message>
-    <message>
-        <source>Connect to Wi-Fi</source>
-        <translation>Se connecter au Wi-Fi</translation>
-    </message>
-    <message>
-        <source>Install</source>
-        <translation>Installer</translation>
-    </message>
-    <message>
-        <source>Back</source>
-        <translation>Retour</translation>
-    </message>
-    <message>
-        <source>Loading...</source>
-        <translation>Chargement...</translation>
-    </message>
-    <message>
-        <source>Reboot</source>
-        <translation>Redémarrer</translation>
-    </message>
-    <message>
-        <source>Update failed</source>
-        <translation>Échec de la mise à jour</translation>
     </message>
 </context>
 <context>
@@ -2479,11 +2350,11 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&lt;span style=&apos;font-family: &quot;Noto Color Emoji&quot;;&apos;&gt;🔥&lt;/span&gt; Firehose Mode &lt;span style=&apos;font-family: Noto Color Emoji;&apos;&gt;🔥&lt;/span&gt;</source>
+        <source>Maximize your training data uploads to improve openpilot&apos;s driving models.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Maximize your training data uploads to improve openpilot&apos;s driving models.</source>
+        <source>&lt;span style=&apos;font-family: &quot;Noto Color Emoji&quot;;&apos;&gt;🔥&lt;/span&gt; Firehose Mode &lt;span style=&apos;font-family: Noto Color Emoji;&apos;&gt;🔥&lt;/span&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

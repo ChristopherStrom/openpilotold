@@ -8,10 +8,6 @@
         <translation>关闭</translation>
     </message>
     <message>
-        <source>Snooze Update</source>
-        <translation>暂停更新</translation>
-    </message>
-    <message>
         <source>Reboot and Update</source>
         <translation>重启并更新</translation>
     </message>
@@ -40,7 +36,7 @@
     </message>
     <message>
         <source>IP Address</source>
-        <translation>IP地址</translation>
+        <translation>IP 地址</translation>
     </message>
     <message>
         <source>Enable Roaming</source>
@@ -48,11 +44,11 @@
     </message>
     <message>
         <source>APN Setting</source>
-        <translation>APN设置</translation>
+        <translation>APN 设置</translation>
     </message>
     <message>
         <source>Enter APN</source>
-        <translation>输入APN</translation>
+        <translation>输入 APN</translation>
     </message>
     <message>
         <source>leave blank for automatic configuration</source>
@@ -84,27 +80,27 @@
     </message>
     <message>
         <source>Prevent large data uploads when on a metered cellular connection</source>
-        <translation type="unfinished"></translation>
+        <translation>在按流量计费的移动网络上，防止上传大数据</translation>
     </message>
     <message>
         <source>default</source>
-        <translation type="unfinished"></translation>
+        <translation>默认</translation>
     </message>
     <message>
         <source>metered</source>
-        <translation type="unfinished"></translation>
+        <translation>按流量计费</translation>
     </message>
     <message>
         <source>unmetered</source>
-        <translation type="unfinished"></translation>
+        <translation>不按流量计费</translation>
     </message>
     <message>
         <source>Wi-Fi Network Metered</source>
-        <translation type="unfinished"></translation>
+        <translation>按流量计费的 WLAN 网络</translation>
     </message>
     <message>
         <source>Prevent large data uploads when on a metered Wi-Fi connection</source>
-        <translation type="unfinished"></translation>
+        <translation>在按流量计费的 WLAN 网络上，防止上传大数据</translation>
     </message>
 </context>
 <context>
@@ -168,16 +164,16 @@ Please use caution when using this feature. Only use the blinker when traffic an
 <context>
     <name>DeclinePage</name>
     <message>
-        <source>You must accept the Terms and Conditions in order to use sunnypilot.</source>
-        <translation>您必须接受条款和条件以使用sunnypilot。</translation>
-    </message>
-    <message>
         <source>Back</source>
         <translation>返回</translation>
     </message>
     <message>
         <source>Decline, uninstall %1</source>
         <translation>拒绝并卸载%1</translation>
+    </message>
+    <message>
+        <source>You must accept the Terms and Conditions in order to use CyberPilot.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -191,6 +187,14 @@ Please use caution when using this feature. Only use the blinker when traffic an
         <translation>纵向操控测试模式</translation>
     </message>
     <message>
+        <source>openpilot Longitudinal Control (Alpha)</source>
+        <translation>openpilot纵向控制（Alpha 版）</translation>
+    </message>
+    <message>
+        <source>WARNING: openpilot longitudinal control is in alpha for this car and will disable Automatic Emergency Braking (AEB).</source>
+        <translation>警告：此车辆的 openpilot 纵向控制功能目前处于Alpha版本，使用此功能将会停用自动紧急制动（AEB）功能。</translation>
+    </message>
+    <message>
         <source>Enable ADB</source>
         <translation>启用 ADB</translation>
     </message>
@@ -199,15 +203,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
         <translation>ADB（Android调试桥接）允许通过USB或网络连接到您的设备。更多信息请参见 [https://docs.comma.ai/how-to/connect-to-comma](https://docs.comma.ai/how-to/connect-to-comma)。</translation>
     </message>
     <message>
-        <source>openpilot Longitudinal Control (Alpha)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>WARNING: openpilot longitudinal control is in alpha for this car and will disable Automatic Emergency Braking (AEB).</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>On this car, sunnypilot defaults to the car&apos;s built-in ACC instead of openpilot&apos;s longitudinal control. Enable this to switch to openpilot longitudinal control. Enabling Experimental mode is recommended when enabling openpilot longitudinal control alpha.</source>
+        <source>On this car, CyberPilot defaults to the car&apos;s built-in ACC instead of openpilot&apos;s longitudinal control. Enable this to switch to openpilot longitudinal control. Enabling Experimental mode is recommended when enabling openpilot longitudinal control alpha.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -218,7 +214,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Toggle visibility of advanced sunnypilot controls.
+        <source>Toggle visibility of advanced CyberPilot controls.
 This only toggles the visibility of the controls; it does not toggle the actual control enabled/disabled state.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -243,7 +239,7 @@ This only toggles the visibility of the controls; it does not toggle the actual 
         <translation type="unfinished">查看</translation>
     </message>
     <message>
-        <source>View the error log for sunnypilot crashes.</source>
+        <source>View the error log for CyberPilot crashes.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -300,10 +296,6 @@ This only toggles the visibility of the controls; it does not toggle the actual 
     <message>
         <source>REVIEW</source>
         <translation>查看</translation>
-    </message>
-    <message>
-        <source>Review the rules, features, and limitations of sunnypilot</source>
-        <translation>查看 sunnypilot 的使用规则，以及其功能和限制</translation>
     </message>
     <message>
         <source>Are you sure you want to review the training guide?</source>
@@ -363,7 +355,7 @@ This only toggles the visibility of the controls; it does not toggle the actual 
     </message>
     <message>
         <source>Disengage to Reboot</source>
-        <translation>取消sunnypilot以重新启动</translation>
+        <translation>取消openpilot以重新启动</translation>
     </message>
     <message>
         <source>Are you sure you want to power off?</source>
@@ -371,7 +363,7 @@ This only toggles the visibility of the controls; it does not toggle the actual 
     </message>
     <message>
         <source>Disengage to Power Off</source>
-        <translation>取消sunnypilot以关机</translation>
+        <translation>取消openpilot以关机</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -395,39 +387,51 @@ This only toggles the visibility of the controls; it does not toggle the actual 
     </message>
     <message>
         <source>Disengage to Reset Calibration</source>
-        <translation type="unfinished"></translation>
+        <translation>解除以重置校准</translation>
     </message>
     <message>
-        <source>sunnypilot requires the device to be mounted within 4° left or right and within 5° up or 9° down.</source>
-        <translation type="unfinished"></translation>
+        <source>openpilot is continuously calibrating, resetting is rarely required. Resetting calibration will restart openpilot if the car is powered on.</source>
+        <translation>openpilot 会持续进行校准，因此很少需要重置。如果车辆电源已开启，重置校准会重新启动 openpilot。</translation>
     </message>
     <message>
         <source>
 
 Steering lag calibration is %1% complete.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+
+转向延迟校准已完成 %1%。</translation>
     </message>
     <message>
         <source>
 
 Steering lag calibration is complete.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+
+转向延迟校准已完成。</translation>
     </message>
     <message>
         <source> Steering torque response calibration is %1% complete.</source>
-        <translation type="unfinished"></translation>
+        <translation> 转向扭矩响应校准已完成 %1%。</translation>
     </message>
     <message>
         <source> Steering torque response calibration is complete.</source>
+        <translation> 转向扭矩响应校准已完成。</translation>
+    </message>
+    <message>
+        <source>Review the rules, features, and limitations of CyberPilot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>openpilot is continuously calibrating, resetting is rarely required. Resetting calibration will restart openpilot if the car is powered on.</source>
+        <source>CyberPilot requires the device to be mounted within 4° left or right and within 5° up or 9° down.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>DevicePanelSP</name>
+    <message>
+        <source>Quiet Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message>
         <source>Driver Camera Preview</source>
         <translation type="unfinished"></translation>
@@ -445,6 +449,10 @@ Steering lag calibration is complete.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Reset Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Are you sure you want to review the training guide?</source>
         <translation type="unfinished">您确定要查看新手指南吗？</translation>
     </message>
@@ -455,6 +463,19 @@ Steering lag calibration is complete.</source>
     <message>
         <source>Select a language</source>
         <translation type="unfinished">选择语言</translation>
+    </message>
+    <message>
+        <source>Wake-Up Behavior</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Interactivity Timeout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Apply a custom timeout for settings UI.
+This is the time after which settings UI closes automatically if user is not interacting with the screen.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Reboot</source>
@@ -474,7 +495,7 @@ Steering lag calibration is complete.</source>
     </message>
     <message>
         <source>Confirm</source>
-        <translation type="unfinished">确认</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Are you sure you want to enter Always Offroad mode?</source>
@@ -485,23 +506,7 @@ Steering lag calibration is complete.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Exit Always Offroad</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Always Offroad</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Quiet Mode</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reset Settings</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Are you sure you want to reset all sunnypilot settings to default? Once the settings are reset, there is no going back.</source>
+        <source>Are you sure you want to reset all CyberPilot settings to default? Once the settings are reset, there is no going back.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -513,16 +518,11 @@ Steering lag calibration is complete.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Wake-Up Behavior</source>
+        <source>Exit Always Offroad</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Interactivity Timeout</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Apply a custom timeout for settings UI.
-This is the time after which settings UI closes automatically if user is not interacting with the screen.</source>
+        <source>Always Offroad</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -580,7 +580,7 @@ This is the time after which settings UI closes automatically if user is not int
     </message>
     <message>
         <source>Confirm</source>
-        <translation type="unfinished">确认</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>EXIT ALWAYS OFFROAD MODE</source>
@@ -602,15 +602,11 @@ This is the time after which settings UI closes automatically if user is not int
     <name>FirehosePanel</name>
     <message>
         <source>Firehose Mode: ACTIVE</source>
-        <translation>训练数据上传模式：激活中</translation>
+        <translation>Firehose 模式：激活中</translation>
     </message>
     <message>
         <source>ACTIVE</source>
         <translation>激活中</translation>
-    </message>
-    <message>
-        <source>For maximum effectiveness, bring your device inside and connect to a good USB-C adapter and Wi-Fi weekly.&lt;br&gt;&lt;br&gt;Firehose Mode can also work while you&apos;re driving if connected to a hotspot or unlimited SIM card.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Frequently Asked Questions&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Does it matter how or where I drive?&lt;/i&gt; Nope, just drive as you normally would.&lt;br&gt;&lt;br&gt;&lt;i&gt;Do all of my segments get pulled in Firehose Mode?&lt;/i&gt; No, we selectively pull a subset of your segments.&lt;br&gt;&lt;br&gt;&lt;i&gt;What&apos;s a good USB-C adapter?&lt;/i&gt; Any fast phone or laptop charger should be fine.&lt;br&gt;&lt;br&gt;&lt;i&gt;Does it matter which software I run?&lt;/i&gt; Yes, only upstream sunnypilot (and particular forks) are able to be used for training.</source>
-        <translation>为了达到最佳效果，请每周将您的设备带回室内，并连接到优质的 USB-C 充电器和 Wi-Fi。&lt;br&gt;&lt;br&gt;Firehose 模式在行驶时也能运行，但需连接到移动热点或使用不限流量的 SIM 卡。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;常见问题&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;我开车的方式或地点有影响吗？&lt;/i&gt;不会，请像平常一样驾驶即可。&lt;br&gt;&lt;br&gt;&lt;i&gt;Firehose 模式会上传所有的驾驶片段吗？&lt;/i&gt;不会，我们会选择性地上传部分片段。&lt;br&gt;&lt;br&gt;&lt;i&gt;什么是好的 USB-C 充电器？&lt;/i&gt;任何快速手机或笔记本电脑充电器都应该适用。&lt;br&gt;&lt;br&gt;&lt;i&gt;我使用的软件版本有影响吗？&lt;/i&gt;有的，只有官方 sunnypilot（以及特定的分支）可以用于训练。</translation>
     </message>
     <message numerus="yes">
         <source>&lt;b&gt;%n segment(s)&lt;/b&gt; of your driving is in the training dataset so far.</source>
@@ -619,17 +615,21 @@ This is the time after which settings UI closes automatically if user is not int
         </translation>
     </message>
     <message>
-        <source>sunnypilot learns to drive by watching humans, like you, drive.
-
-Firehose Mode allows you to maximize your training data uploads to improve openpilot&apos;s driving models. More data means bigger models, which means better Experimental Mode.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>&lt;span stylesheet=&apos;font-size: 60px; font-weight: bold; color: #e74c3c;&apos;&gt;INACTIVE&lt;/span&gt;: connect to an unmetered network</source>
         <translation>&lt;span stylesheet=&apos;font-size: 60px; font-weight: bold; color: #e74c3c;&apos;&gt;闲置&lt;/span&gt;：请连接到不限流量的网络</translation>
     </message>
     <message>
         <source>Firehose Mode</source>
+        <translation>Firehose 模式</translation>
+    </message>
+    <message>
+        <source>CyberPilot learns to drive by watching humans, like you, drive.
+
+Firehose Mode allows you to maximize your training data uploads to improve openpilot&apos;s driving models. More data means bigger models, which means better Experimental Mode.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>For maximum effectiveness, bring your device inside and connect to a good USB-C adapter and Wi-Fi weekly.&lt;br&gt;&lt;br&gt;Firehose Mode can also work while you&apos;re driving if connected to a hotspot or unlimited SIM card.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Frequently Asked Questions&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Does it matter how or where I drive?&lt;/i&gt; Nope, just drive as you normally would.&lt;br&gt;&lt;br&gt;&lt;i&gt;Do all of my segments get pulled in Firehose Mode?&lt;/i&gt; No, we selectively pull a subset of your segments.&lt;br&gt;&lt;br&gt;&lt;i&gt;What&apos;s a good USB-C adapter?&lt;/i&gt; Any fast phone or laptop charger should be fine.&lt;br&gt;&lt;br&gt;&lt;i&gt;Does it matter which software I run?&lt;/i&gt; Yes, only upstream CyberPilot (and particular forks) are able to be used for training.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -726,7 +726,7 @@ Firehose Mode allows you to maximize your training data uploads to improve openp
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enable the beloved MADS feature. Disable toggle to revert back to stock sunnypilot engagement/disengagement.</source>
+        <source>Enable the beloved MADS feature. Disable toggle to revert back to stock CyberPilot engagement/disengagement.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -735,6 +735,14 @@ Firehose Mode allows you to maximize your training data uploads to improve openp
     </message>
     <message>
         <source>Customize Lane Change</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pause Lateral Control with Blinker</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pause lateral control with blinker when traveling below the desired speed selected.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -751,14 +759,6 @@ Firehose Mode allows you to maximize your training data uploads to improve openp
     </message>
     <message>
         <source>This platform supports limited MADS settings.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Pause Lateral Control with Blinker</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Pause lateral control with blinker when traveling below the desired speed selected.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -792,11 +792,15 @@ Firehose Mode allows you to maximize your training data uploads to improve openp
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Note: For vehicles without LFA/LKAS button, disabling this will prevent lateral control engagement.</source>
+        <source>Unified Engagement Mode (UEM)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Unified Engagement Mode (UEM)</source>
+        <source>Steering Mode on Brake Pedal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Note: For vehicles without LFA/LKAS button, disabling this will prevent lateral control engagement.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -805,18 +809,6 @@ Firehose Mode allows you to maximize your training data uploads to improve openp
     </message>
     <message>
         <source>Note: Once lateral control is engaged via UEM, it will remain engaged until it is manually disabled via the MADS button or car shut off.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Remain Active</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Disengage</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Steering Mode on Brake Pedal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -836,6 +828,10 @@ Firehose Mode allows you to maximize your training data uploads to improve openp
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Remain Active</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Remain Active: ALC will remain active when the brake pedal is pressed.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -848,11 +844,15 @@ Firehose Mode allows you to maximize your training data uploads to improve openp
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Disengage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Disengage: ALC will disengage when the brake pedal is pressed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Choose how Automatic Lane Centering (ALC) behaves after the brake pedal is manually pressed in sunnypilot.</source>
+        <source>Choose how Automatic Lane Centering (ALC) behaves after the brake pedal is manually pressed in CyberPilot.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -892,66 +892,6 @@ Firehose Mode allows you to maximize your training data uploads to improve openp
     <message>
         <source>SELECT</source>
         <translation type="unfinished">选择</translation>
-    </message>
-    <message>
-        <source>downloaded</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>ready</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>from cache</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Fetching models...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Select a Model</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Default</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Model download has started in the background.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>We STRONGLY suggest you to reset calibration.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Would you like to do that now?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reset Calibration</source>
-        <translation type="unfinished">重置设备校准</translation>
-    </message>
-    <message>
-        <source>Driving Model Selector</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Warning: You are on a metered connection!</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Continue</source>
-        <translation type="unfinished">继续</translation>
-    </message>
-    <message>
-        <source>on Metered</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
     </message>
     <message>
         <source>Clear Model Cache</source>
@@ -995,6 +935,18 @@ The default software delay value is 0.2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>downloaded</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ready</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>from cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>  download failed - %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1003,11 +955,35 @@ The default software delay value is 0.2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enable this for the car to learn and adapt its steering response time. Disable to use a fixed steering response time. Keeping this on provides the stock openpilot experience. The Current value is updated automatically when the vehicle is Onroad.</source>
+        <source>Fetching models...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Current:</source>
+        <source>Select a Model</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Model download has started in the background.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>We STRONGLY suggest you to reset calibration.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Would you like to do that now?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reset Calibration</source>
+        <translation type="unfinished">重置设备校准</translation>
+    </message>
+    <message>
+        <source>Driving Model Selector</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1016,6 +992,54 @@ The default software delay value is 0.2</source>
     </message>
     <message>
         <source>Clear Cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Warning: You are on a metered connection!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Continue</source>
+        <translation type="unfinished">继续</translation>
+    </message>
+    <message>
+        <source>on Metered</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">取消</translation>
+    </message>
+    <message>
+        <source>Refresh Model List</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>REFRESH</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fetching Latest Models</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable this for the car to learn and adapt its steering response time. Disable to use a fixed steering response time. Keeping this on provides the stock openpilot experience.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Live Steer Delay:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Actuator Delay:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Software Delay:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Total Delay:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1103,7 +1127,7 @@ The default software delay value is 0.2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Reach out to the sunnypilot team in the following channel at the sunnypilot Discord server</source>
+        <source>Reach out to the CyberPilot team in the following channel at the CyberPilot Discord server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1122,14 +1146,6 @@ The default software delay value is 0.2</source>
 <context>
     <name>OffroadAlert</name>
     <message>
-        <source>Immediately connect to the internet to check for updates. If you do not connect to the internet, sunnypilot won&apos;t engage in %1</source>
-        <translation>请立即连接网络检查更新。如果不连接网络，sunnypilot 将在 %1 后便无法使用</translation>
-    </message>
-    <message>
-        <source>Connect to internet to check for updates. sunnypilot won&apos;t automatically start until it connects to internet to check for updates.</source>
-        <translation>请连接至互联网以检查更新。在连接至互联网并完成更新检查之前，sunnypilot 将不会自动启动。</translation>
-    </message>
-    <message>
         <source>Unable to download updates
 %1</source>
         <translation>无法下载更新
@@ -1144,28 +1160,44 @@ The default software delay value is 0.2</source>
         <translation>一个针对您设备的操作系统更新正在后台下载中。当更新准备好安装时，您将收到提示进行更新。</translation>
     </message>
     <message>
-        <source>Device failed to register. It will not connect to or upload to comma.ai servers, and receives no support from comma.ai. If this is an official device, visit https://comma.ai/support.</source>
-        <translation>设备注册失败。它将无法连接或上传至 comma.ai 服务器，并且无法获得 comma.ai 的支持。如果这是一个官方设备，请访问 https://comma.ai/support。</translation>
-    </message>
-    <message>
         <source>NVMe drive not mounted.</source>
         <translation>NVMe固态硬盘未被挂载。</translation>
     </message>
     <message>
-        <source>Unsupported NVMe drive detected. Device may draw significantly more power and overheat due to the unsupported NVMe.</source>
-        <translation>检测到不支持的 NVMe 固态硬盘。您的设备因为使用了不支持的 NVMe 固态硬盘可能会消耗更多电力并更易过热。</translation>
-    </message>
-    <message>
-        <source>sunnypilot was unable to identify your car. Your car is either unsupported or its ECUs are not recognized. Please submit a pull request to add the firmware versions to the proper vehicle. Need help? Join discord.comma.ai.</source>
-        <translation>sunnypilot 无法识别您的车辆。您的车辆可能未被支持，或是其电控单元 (ECU) 未被识别。请提交一个 Pull Request 为您的车辆添加正确的固件版本。需要帮助吗？请加入 discord.comma.ai。</translation>
-    </message>
-    <message>
-        <source>sunnypilot detected a change in the device&apos;s mounting position. Ensure the device is fully seated in the mount and the mount is firmly secured to the windshield.</source>
-        <translation>sunnypilot 检测到设备的安装位置发生变化。请确保设备完全安装在支架上，并确保支架牢固地固定在挡风玻璃上。</translation>
-    </message>
-    <message>
         <source>Device temperature too high. System cooling down before starting. Current internal component temperature: %1</source>
         <translation>设备温度过高。系统正在冷却中，等冷却完毕后才会启动。目前内部组件温度：%1</translation>
+    </message>
+    <message>
+        <source>Device failed to register with the comma.ai backend. It will not connect or upload to comma.ai servers, and receives no support from comma.ai. If this is a device purchased at comma.ai/shop, open a ticket at https://comma.ai/support.</source>
+        <translation>设备未能注册到 comma.ai 后端。该设备将无法连接或上传数据到 comma.ai 服务器，也无法获得 comma.ai 的支持。如果该设备是在 comma.ai/shop 购买的，请访问 https://comma.ai/support 提交工单。</translation>
+    </message>
+    <message>
+        <source>Acknowledge Excessive Actuation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Snooze Update</source>
+        <translation type="unfinished">暂停更新</translation>
+    </message>
+    <message>
+        <source>openpilot detected excessive %1 actuation on your last drive. Please contact support at https://comma.ai/support and share your device&apos;s Dongle ID for troubleshooting.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Immediately connect to the internet to check for updates. If you do not connect to the internet, CyberPilot won&apos;t engage in %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Connect to internet to check for updates. CyberPilot won&apos;t automatically start until it connects to internet to check for updates.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CyberPilot was unable to identify your car. Your car is either unsupported or its ECUs are not recognized. Please submit a pull request to add the firmware versions to the proper vehicle. Need help? Join discord.comma.ai.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CyberPilot detected a change in the device&apos;s mounting position. Ensure the device is fully seated in the mount and the mount is firmly secured to the windshield.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>OpenStreetMap database is out of date. New maps must be downloaded if you wish to continue using OpenStreetMap data for Enhanced Speed Control and road name display.
@@ -1199,10 +1231,6 @@ The default software delay value is 0.2</source>
 <context>
     <name>OnroadAlerts</name>
     <message>
-        <source>sunnypilot Unavailable</source>
-        <translation>无法使用 sunnypilot</translation>
-    </message>
-    <message>
         <source>TAKE CONTROL IMMEDIATELY</source>
         <translation>立即接管</translation>
     </message>
@@ -1217,6 +1245,10 @@ The default software delay value is 0.2</source>
     <message>
         <source>System Unresponsive</source>
         <translation>系统无响应</translation>
+    </message>
+    <message>
+        <source>CyberPilot Unavailable</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1435,7 +1467,7 @@ Warning: You are on a metered connection!</source>
     </message>
     <message>
         <source>Confirm</source>
-        <translation type="unfinished">确认</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -1518,10 +1550,6 @@ Warning: You are on a metered connection!</source>
 </context>
 <context>
     <name>QObject</name>
-    <message>
-        <source>sunnypilot</source>
-        <translation>sunnypilot</translation>
-    </message>
     <message numerus="yes">
         <source>%n minute(s) ago</source>
         <translation>
@@ -1544,46 +1572,9 @@ Warning: You are on a metered connection!</source>
         <source>now</source>
         <translation>现在</translation>
     </message>
-</context>
-<context>
-    <name>Reset</name>
     <message>
-        <source>Reset failed. Reboot to try again.</source>
-        <translation>重置失败。 重新启动以重试。</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to reset your device?</source>
-        <translation>您确定要重置您的设备吗？</translation>
-    </message>
-    <message>
-        <source>System Reset</source>
-        <translation>恢复出厂设置</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>取消</translation>
-    </message>
-    <message>
-        <source>Reboot</source>
-        <translation>重启</translation>
-    </message>
-    <message>
-        <source>Confirm</source>
-        <translation>确认</translation>
-    </message>
-    <message>
-        <source>Unable to mount data partition. Partition may be corrupted. Press confirm to erase and reset your device.</source>
-        <translation>无法挂载数据分区。分区可能已经损坏。请确认是否要删除并重新设置。</translation>
-    </message>
-    <message>
-        <source>Resetting device...
-This may take up to a minute.</source>
-        <translation>设备重置中…
-这可能需要一分钟的时间。</translation>
-    </message>
-    <message>
-        <source>System reset triggered. Press confirm to erase all content and settings. Press cancel to resume boot.</source>
-        <translation>系统重置已触发。按下“确认”以清除所有内容和设置，按下“取消”以继续启动。</translation>
+        <source>CyberPilot</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1614,7 +1605,7 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>Firehose</source>
-        <translation>训练上传</translation>
+        <translation>Firehose</translation>
     </message>
 </context>
 <context>
@@ -1644,27 +1635,11 @@ This may take up to a minute.</source>
         <translation type="unfinished">软件</translation>
     </message>
     <message>
-        <source>Trips</source>
+        <source>Models</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Vehicle</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Developer</source>
-        <translation type="unfinished">开发人员</translation>
-    </message>
-    <message>
-        <source>Firehose</source>
-        <translation type="unfinished">训练上传</translation>
     </message>
     <message>
         <source>Steering</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Models</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1679,110 +1654,21 @@ This may take up to a minute.</source>
         <source>OSM</source>
         <translation type="unfinished"></translation>
     </message>
-</context>
-<context>
-    <name>Setup</name>
     <message>
-        <source>WARNING: Low Voltage</source>
-        <translation>警告：低电压</translation>
-    </message>
-    <message>
-        <source>Power your device in a car with a harness or proceed at your own risk.</source>
-        <translation>请使用car harness线束为您的设备供电，或自行承担风险。</translation>
-    </message>
-    <message>
-        <source>Power off</source>
-        <translation>关机</translation>
-    </message>
-    <message>
-        <source>Continue</source>
-        <translation>继续</translation>
-    </message>
-    <message>
-        <source>Getting Started</source>
-        <translation>开始设置</translation>
-    </message>
-    <message>
-        <source>Before we get on the road, let’s finish installation and cover some details.</source>
-        <translation>开始旅程之前，让我们完成安装并介绍一些细节。</translation>
-    </message>
-    <message>
-        <source>Connect to Wi-Fi</source>
-        <translation>连接到WiFi</translation>
-    </message>
-    <message>
-        <source>Back</source>
-        <translation>返回</translation>
-    </message>
-    <message>
-        <source>Continue without Wi-Fi</source>
-        <translation>不连接WiFi并继续</translation>
-    </message>
-    <message>
-        <source>Waiting for internet</source>
-        <translation>等待网络连接</translation>
-    </message>
-    <message>
-        <source>Enter URL</source>
-        <translation>输入网址</translation>
-    </message>
-    <message>
-        <source>for Custom Software</source>
-        <translation>以下载自定义软件</translation>
-    </message>
-    <message>
-        <source>Downloading...</source>
-        <translation>正在下载……</translation>
-    </message>
-    <message>
-        <source>Download Failed</source>
-        <translation>下载失败</translation>
-    </message>
-    <message>
-        <source>Ensure the entered URL is valid, and the device’s internet connection is good.</source>
-        <translation>请确保互联网连接良好且输入的URL有效。</translation>
-    </message>
-    <message>
-        <source>Reboot device</source>
-        <translation>重启设备</translation>
-    </message>
-    <message>
-        <source>Start over</source>
-        <translation>重来</translation>
-    </message>
-    <message>
-        <source>No custom software found at this URL.</source>
-        <translation>在此网址找不到自定义软件。</translation>
-    </message>
-    <message>
-        <source>Something went wrong. Reboot the device.</source>
-        <translation>发生了一些错误。请重新启动您的设备。</translation>
-    </message>
-    <message>
-        <source>Select a language</source>
-        <translation>选择语言</translation>
-    </message>
-    <message>
-        <source>Choose Software to Install</source>
-        <translation>选择要安装的软件</translation>
-    </message>
-    <message>
-        <source>sunnypilot</source>
-        <translation>sunnypilot</translation>
-    </message>
-    <message>
-        <source>Custom Software</source>
-        <translation>定制软件</translation>
-    </message>
-    <message>
-        <source>WARNING: Custom Software</source>
+        <source>Trips</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Use caution when installing third-party software. Third-party software has not been tested by comma, and may cause damage to your device and/or vehicle.
-
-If you&apos;d like to proceed, use https://flash.comma.ai to restore your device to a factory state later.</source>
+        <source>Vehicle</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Firehose</source>
+        <translation type="unfinished">Firehose</translation>
+    </message>
+    <message>
+        <source>Developer</source>
+        <translation type="unfinished">开发人员</translation>
     </message>
 </context>
 <context>
@@ -1988,20 +1874,20 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>No branches found for keywords: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Select a branch</source>
-        <translation type="unfinished">选择分支</translation>
-    </message>
-    <message>
         <source>Disable Updates</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>When enabled, software updates will be disabled. &lt;b&gt;This requires a reboot to take effect.&lt;/b&gt;</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No branches found for keywords: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Select a branch</source>
+        <translation type="unfinished">选择分支</translation>
     </message>
     <message>
         <source>%1 updates requires a reboot.&lt;br&gt;Reboot now?</source>
@@ -2077,22 +1963,6 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>🎉Welcome back! We&apos;re excited to see you&apos;ve enabled CyberLink again! 🚀</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>👋Not going to lie, it&apos;s sad to see you disabled CyberLink 😢, but we&apos;ll be here when you&apos;re ready to come back 🎉.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Device ID</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>N/A</source>
-        <translation type="unfinished">N/A</translation>
-    </message>
-    <message>
         <source>Sponsor Status</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2101,7 +1971,7 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Become a sponsor of sunnypilot to get early access to sunnylink features when they become available.</source>
+        <source>Become a sponsor of CyberPilot to get early access to sunnylink features when they become available.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2117,23 +1987,19 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>N/A</source>
+        <translation type="unfinished">N/A</translation>
+    </message>
+    <message>
         <source>sunnylink Dongle ID not found. This may be due to weak internet connection or sunnylink registration issue. Please reboot and try again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Not Sponsor</source>
+        <source>🎉Welcome back! We&apos;re excited to see you&apos;ve enabled sunnylink again! 🚀</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Paired</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Not Paired</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>THANKS ♥</source>
+        <source>👋Not going to lie, it&apos;s sad to see you disabled sunnylink 😢, but we&apos;ll be here when you&apos;re ready to come back 🎉.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2141,7 +2007,7 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Are you sure you want to backup sunnypilot settings?</source>
+        <source>Are you sure you want to backup CyberPilot settings?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2153,7 +2019,7 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Are you sure you want to restore the last backed up sunnypilot settings?</source>
+        <source>Are you sure you want to restore the last backed up CyberPilot settings?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2186,6 +2052,50 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
     </message>
     <message>
         <source>Settings restored. Confirm to restart the interface.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Device ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>THANKS ♥</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not Sponsor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Paired</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not Paired</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable sunnylink uploader to allow CyberPilot to upload your driving data to CyberPilot servers. (only for highest tiers, and does NOT bring ANY benefit to you. We are just testing data volume.)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>[Don&apos;t use] Enable CyberPilot uploader</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>🚀 CyberLink 🚀</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>For secure backup, restore, and remote configuration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sponsorship isn&apos;t required for basic backup/restore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click the sponsor button for more details</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2224,7 +2134,7 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Early Access: Become a sunnypilot Sponsor</source>
+        <source>Early Access: Become a CyberPilot Sponsor</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2239,12 +2149,12 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
         <translation>同意</translation>
     </message>
     <message>
-        <source>Welcome to sunnypilot</source>
-        <translation>欢迎使用 sunnypilot</translation>
+        <source>Welcome to CyberPilot</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>You must accept the Terms and Conditions to use sunnypilot. Read the latest terms at &lt;span style=&apos;color: #465BEA;&apos;&gt;https://comma.ai/terms&lt;/span&gt; before continuing.</source>
-        <translation>您必须接受《条款与条件》才能使用 sunnypilot。在继续之前，请先阅读最新条款：&lt;span style=&apos;color: #465BEA;&apos;&gt;https://comma.ai/terms&lt;/span&gt;。</translation>
+        <source>You must accept the Terms and Conditions to use CyberPilot. Read the latest terms at &lt;span style=&apos;color: #465BEA;&apos;&gt;https://comma.ai/terms&lt;/span&gt; before continuing.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2278,20 +2188,8 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
         <translation>踩油门时取消控制</translation>
     </message>
     <message>
-        <source>When enabled, pressing the accelerator pedal will disengage sunnypilot.</source>
-        <translation>启用后，踩下油门踏板将取消sunnypilot。</translation>
-    </message>
-    <message>
         <source>Experimental Mode</source>
         <translation>测试模式</translation>
-    </message>
-    <message>
-        <source>sunnypilot defaults to driving in &lt;b&gt;chill mode&lt;/b&gt;. Experimental mode enables &lt;b&gt;alpha-level features&lt;/b&gt; that aren&apos;t ready for chill mode. Experimental features are listed below:</source>
-        <translation>sunnypilot 默认 &lt;b&gt;轻松模式&lt;/b&gt;驾驶车辆。试验模式启用一些轻松模式之外的 &lt;b&gt;试验性功能&lt;/b&gt;。试验性功能包括：</translation>
-    </message>
-    <message>
-        <source>Let the driving model control the gas and brakes. sunnypilot will drive as it thinks a human would, including stopping for red lights and stop signs. Since the driving model decides the speed to drive, the set speed will only act as an upper bound. This is an alpha quality feature; mistakes should be expected.</source>
-        <translation>允许驾驶模型控制加速和制动，sunnypilot将模仿人类驾驶车辆，包括在红灯和停车让行标识前停车。鉴于驾驶模型确定行驶车速，所设定的车速仅作为上限。此功能尚处于早期测试状态，有可能会出现操作错误。</translation>
     </message>
     <message>
         <source>New Driving Visualization</source>
@@ -2300,6 +2198,10 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
     <message>
         <source>Experimental mode is currently unavailable on this car since the car&apos;s stock ACC is used for longitudinal control.</source>
         <translation>由于此车辆使用自带的ACC纵向控制，当前无法使用试验模式。</translation>
+    </message>
+    <message>
+        <source>openpilot longitudinal control may come in a future update.</source>
+        <translation>openpilot纵向控制可能会在未来的更新中提供。</translation>
     </message>
     <message>
         <source>Aggressive</source>
@@ -2318,20 +2220,8 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
         <translation>驾驶风格</translation>
     </message>
     <message>
-        <source>An alpha version of sunnypilot longitudinal control can be tested, along with Experimental mode, on non-release branches.</source>
-        <translation>在正式（release）版本以外的分支上，可以测试 sunnypilot 纵向控制的 Alpha 版本以及实验模式。</translation>
-    </message>
-    <message>
-        <source>Enable the sunnypilot longitudinal control (alpha) toggle to allow Experimental mode.</source>
-        <translation>启用 sunnypilot 纵向控制（alpha）开关以允许实验模式。</translation>
-    </message>
-    <message>
         <source>End-to-End Longitudinal Control</source>
         <translation>端到端纵向控制</translation>
-    </message>
-    <message>
-        <source>Standard is recommended. In aggressive mode, sunnypilot will follow lead cars closer and be more aggressive with the gas and brake. In relaxed mode sunnypilot will stay further away from lead cars. On supported cars, you can cycle through these personalities with your steering wheel distance button.</source>
-        <translation>推荐使用标准模式。在积极模式下，sunnypilot 会更靠近前方车辆，并在油门和刹车方面更加激进。在放松模式下，sunnypilot 会与前方车辆保持更远距离。在支持的车型上，你可以使用方向盘上的距离按钮来循环切换这些驾驶风格。</translation>
     </message>
     <message>
         <source>The driving visualization will transition to the road-facing wide-angle camera at low speeds to better show some turns. The Experimental mode logo will also be shown in the top right corner.</source>
@@ -2342,39 +2232,59 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
         <translation>驾驶员监控常开</translation>
     </message>
     <message>
-        <source>Enable driver monitoring even when sunnypilot is not engaged.</source>
-        <translation>即使在sunnypilot未激活时也启用驾驶员监控。</translation>
+        <source> Changing this setting will restart openpilot if the car is powered on.</source>
+        <translation> 如果车辆已通电，更改此设置将会重新启动 openpilot。</translation>
+    </message>
+    <message>
+        <source>Record and Upload Microphone Audio</source>
+        <translation>录制并上传麦克风音频</translation>
+    </message>
+    <message>
+        <source>Record and store microphone audio while driving. The audio will be included in the dashcam video in comma connect.</source>
+        <translation>在驾驶时录制并存储麦克风音频。该音频将会包含在 comma connect 的行车记录仪视频中。</translation>
+    </message>
+    <message>
+        <source>Enable CyberPilot</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use the CyberPilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Enable Dynamic Experimental Control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enable toggle to allow the model to determine when to use sunnypilot ACC or sunnypilot End to End Longitudinal.</source>
+        <source>Enable toggle to allow the model to determine when to use CyberPilot ACC or CyberPilot End to End Longitudinal.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enable sunnypilot</source>
-        <translation>启用sunnypilot</translation>
-    </message>
-    <message>
-        <source>Use the sunnypilot system for adaptive cruise control and lane keep driver assistance. Your attention is required at all times to use this feature.</source>
+        <source>When enabled, pressing the accelerator pedal will disengage CyberPilot.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source> Changing this setting will restart openpilot if the car is powered on.</source>
+        <source>Enable driver monitoring even when CyberPilot is not engaged.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>openpilot longitudinal control may come in a future update.</source>
+        <source>Standard is recommended. In aggressive mode, CyberPilot will follow lead cars closer and be more aggressive with the gas and brake. In relaxed mode CyberPilot will stay further away from lead cars. On supported cars, you can cycle through these personalities with your steering wheel distance button.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Record and Upload Microphone Audio</source>
+        <source>CyberPilot defaults to driving in &lt;b&gt;chill mode&lt;/b&gt;. Experimental mode enables &lt;b&gt;alpha-level features&lt;/b&gt; that aren&apos;t ready for chill mode. Experimental features are listed below:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Record and store microphone audio while driving. The audio will be included in the dashcam video in comma connect.</source>
+        <source>Let the driving model control the gas and brakes. CyberPilot will drive as it thinks a human would, including stopping for red lights and stop signs. Since the driving model decides the speed to drive, the set speed will only act as an upper bound. This is an alpha quality feature; mistakes should be expected.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An alpha version of CyberPilot longitudinal control can be tested, along with Experimental mode, on non-release branches.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enable the CyberPilot longitudinal control (alpha) toggle to allow Experimental mode.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2390,42 +2300,7 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
     </message>
 </context>
 <context>
-    <name>Updater</name>
-    <message>
-        <source>Update Required</source>
-        <translation>需要更新</translation>
-    </message>
-    <message>
-        <source>An operating system update is required. Connect your device to Wi-Fi for the fastest update experience. The download size is approximately 1GB.</source>
-        <translation>操作系统需要更新。请将您的设备连接到WiFi以获取更快的更新体验。下载大小约为1GB。</translation>
-    </message>
-    <message>
-        <source>Connect to Wi-Fi</source>
-        <translation>连接到WiFi</translation>
-    </message>
-    <message>
-        <source>Install</source>
-        <translation>安装</translation>
-    </message>
-    <message>
-        <source>Back</source>
-        <translation>返回</translation>
-    </message>
-    <message>
-        <source>Loading...</source>
-        <translation>正在加载……</translation>
-    </message>
-    <message>
-        <source>Reboot</source>
-        <translation>重启</translation>
-    </message>
-    <message>
-        <source>Update failed</source>
-        <translation>更新失败</translation>
-    </message>
-</context>
-<context>
-    <name>VisualsPanel</name>
+    <name>VisualsPanel</name>CyberPilot
     <message>
         <source>Show Blind Spot Warnings</source>
         <translation type="unfinished"></translation>
@@ -2436,7 +2311,7 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
     </message>
     <message>
         <source> Changing this setting will restart openpilot if the car is powered on.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"> 如果车辆已通电，更改此设置将会重新启动 openpilot。</translation>
     </message>
     <message>
         <source>Off</source>
@@ -2474,12 +2349,12 @@ If you&apos;d like to proceed, use https://flash.comma.ai to restore your device
         <translation>开启</translation>
     </message>
     <message>
-        <source>&lt;span style=&apos;font-family: &quot;Noto Color Emoji&quot;;&apos;&gt;🔥&lt;/span&gt; Firehose Mode &lt;span style=&apos;font-family: Noto Color Emoji;&apos;&gt;🔥&lt;/span&gt;</source>
-        <translation>&lt;span style=&apos;font-family: &quot;Noto Color Emoji&quot;;&apos;&gt;🔥&lt;/span&gt; 训练数据上传模式 &lt;span style=&apos;font-family: Noto Color Emoji;&apos;&gt;🔥&lt;/span&gt;</translation>
+        <source>Maximize your training data uploads to improve openpilot&apos;s driving models.</source>
+        <translation>最大化您的训练数据上传，以改善 openpilot 的驾驶模型。</translation>
     </message>
     <message>
-        <source>Maximize your training data uploads to improve openpilot&apos;s driving models.</source>
-        <translation type="unfinished"></translation>
+        <source>&lt;span style=&apos;font-family: &quot;Noto Color Emoji&quot;;&apos;&gt;🔥&lt;/span&gt; Firehose Mode &lt;span style=&apos;font-family: Noto Color Emoji;&apos;&gt;🔥&lt;/span&gt;</source>
+        <translation>&lt;span style=&apos;font-family: &quot;Noto Color Emoji&quot;;&apos;&gt;🔥&lt;/span&gt; Firehose 模式 &lt;span style=&apos;font-family: Noto Color Emoji;&apos;&gt;🔥&lt;/span&gt;</translation>
     </message>
 </context>
 <context>

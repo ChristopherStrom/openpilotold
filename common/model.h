@@ -1,1 +1,1 @@
-#define DEFAULT_MODEL "Tomb Raider 14 (Default)"
+#define DEFAULT_MODEL "Steam Powered (Default)"

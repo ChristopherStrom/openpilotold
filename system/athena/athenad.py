@@ -153,7 +153,7 @@ class UploadQueueCache:
     try:
       upload_queue_json = Params().get("AthenadUploadQueue")
       if upload_queue_json is not None:
-        for item in json.loads(upload_queue_json):
+        for item in upload_queue_json:
           upload_queue.put(UploadItem.from_dict(item))
     except Exception:
       cloudlog.exception("athena.UploadQueueCache.initialize.exception")
@@ -163,7 +163,7 @@ class UploadQueueCache:
     try:
       queue: list[UploadItem | None] = list(upload_queue.queue)
       items = [asdict(i) for i in queue if i is not None and (i.id not in cancelled_uploads)]
-      Params().put("AthenadUploadQueue", json.dumps(items))
+      Params().put("AthenadUploadQueue", items)
     except Exception:
       cloudlog.exception("athena.UploadQueueCache.cache.exception")
 
@@ -381,20 +381,22 @@ def setNavDestination(latitude: int = 0, longitude: int = 0, place_name: str = N
   return {"success": 1}
 
 
-def scan_dir(path: str, prefix: str) -> list[str]:
+def scan_dir(path: str, prefix: str, base: str | None = None) -> list[str]:
+  if base is None:
+    base = path
   files = []
   # only walk directories that match the prefix
   # (glob and friends traverse entire dir tree)
   with os.scandir(path) as i:
     for e in i:
-      rel_path = os.path.relpath(e.path, Paths.log_root())
+      rel_path = os.path.relpath(e.path, base)
       if e.is_dir(follow_symlinks=False):
         # add trailing slash
         rel_path = os.path.join(rel_path, '')
         # if prefix is a partial dir name, current dir will start with prefix
         # if prefix is a partial file name, prefix with start with dir name
         if rel_path.startswith(prefix) or prefix.startswith(rel_path):
-          files.extend(scan_dir(e.path, prefix))
+          files.extend(scan_dir(e.path, prefix, base))
       else:
         if rel_path.startswith(prefix):
           files.append(rel_path)
@@ -402,7 +404,12 @@ def scan_dir(path: str, prefix: str) -> list[str]:
 
 @dispatcher.add_method
 def listDataDirectory(prefix='') -> list[str]:
-  return scan_dir(Paths.log_root(), prefix)
+  internal_files = scan_dir(Paths.log_root(), prefix, Paths.log_root())
+  try:
+    external_files = scan_dir(Paths.log_root_external(), prefix, Paths.log_root_external())
+  except FileNotFoundError:
+    external_files = []
+  return sorted(set(internal_files + external_files))
 
 
 @dispatcher.add_method
@@ -427,8 +434,13 @@ def uploadFilesToUrls(files_data: list[UploadFileDict]) -> UploadFilesToUrlRespo
       failed.append(file.fn)
       continue
 
-    path = os.path.join(Paths.log_root(), file.fn)
-    if not os.path.exists(path) and not os.path.exists(strip_zst_extension(path)):
+    path_internal = os.path.join(Paths.log_root(), file.fn)
+    path_external = os.path.join(Paths.log_root_external(), file.fn)
+    if os.path.exists(path_internal) or os.path.exists(strip_zst_extension(path_internal)):
+      path = path_internal
+    elif os.path.exists(path_external) or os.path.exists(strip_zst_extension(path_external)):
+      path = path_external
+    else:
       failed.append(file.fn)
       continue
 
@@ -441,7 +453,7 @@ def uploadFilesToUrls(files_data: list[UploadFileDict]) -> UploadFilesToUrlRespo
       path=path,
       url=file.url,
       headers=file.headers,
-      created_at=int(time.time() * 1000),
+      created_at=int(time.time() * 1000),  # noqa: TID251
       id=None,
       allow_cellular=file.allow_cellular,
       priority=file.priority,
@@ -485,7 +497,7 @@ def setRouteViewed(route: str) -> dict[str, int | str]:
   # maintain a list of the last 10 routes viewed in connect
   params = Params()
 
-  r = params.get("AthenadRecentlyViewedRoutes", encoding="utf8")
+  r = params.get("AthenadRecentlyViewedRoutes")
   routes = [] if r is None else r.split(",")
   routes.append(route)
 
@@ -498,7 +510,7 @@ def setRouteViewed(route: str) -> dict[str, int | str]:
 
 def startLocalProxy(global_end_event: threading.Event, remote_ws_uri: str, local_port: int) -> dict[str, int]:
   cloudlog.debug("athena.startLocalProxy.starting")
-  dongle_id = Params().get("DongleId").decode('utf8')
+  dongle_id = Params().get("DongleId")
   identity_token = Api(dongle_id).get_token()
   ws = create_connection(remote_ws_uri, cookie="jwt=" + identity_token, enable_multithread=True)
 
@@ -551,12 +563,12 @@ def getPublicKey() -> str | None:
 
 @dispatcher.add_method
 def getSshAuthorizedKeys() -> str:
-  return Params().get("GithubSshKeys", encoding='utf8') or ''
+  return cast(str, Params().get("GithubSshKeys") or "")
 
 
 @dispatcher.add_method
 def getGithubUsername() -> str:
-  return Params().get("GithubUsername", encoding='utf8') or ''
+  return cast(str, Params().get("GithubUsername") or "")
 
 @dispatcher.add_method
 def getSimInfo():
@@ -599,7 +611,7 @@ def takeSnapshot() -> str | dict[str, str] | None:
 
 def get_logs_to_send_sorted(log_attr_name=LOG_ATTR_NAME) -> list[str]:
   # TODO: scan once then use inotify to detect file creation/deletion
-  curr_time = int(time.time())
+  curr_time = int(time.time())  # noqa: TID251
   logs = []
   for log_entry in os.listdir(Paths.swaglog_root()):
     log_path = os.path.join(Paths.swaglog_root(), log_entry)
@@ -697,7 +709,7 @@ def log_handler(end_event: threading.Event, log_attr_name=LOG_ATTR_NAME) -> None
         log_entry = log_files.pop() # newest log file
         cloudlog.debug(f"athena.log_handler.forward_request {log_entry}")
         try:
-          curr_time = int(time.time())
+          curr_time = int(time.time())  # noqa: TID251
           log_path = os.path.join(Paths.swaglog_root(), log_entry)
           setxattr(log_path, log_attr_name, int.to_bytes(curr_time, 4, sys.byteorder))
 
@@ -820,7 +832,7 @@ def ws_recv(ws: WebSocket, end_event: threading.Event) -> None:
         recv_queue.put_nowait(data)
       elif opcode == ABNF.OPCODE_PING:
         last_ping = int(time.monotonic() * 1e9)
-        Params().put("LastAthenaPingTime", str(last_ping))
+        Params().put("LastAthenaPingTime", last_ping)
     except WebSocketTimeoutException:
       ns_since_last_ping = int(time.monotonic() * 1e9) - last_ping
       if ns_since_last_ping > RECONNECT_TIMEOUT_S * 1e9:
@@ -885,7 +897,7 @@ def main(exit_event: threading.Event = None):
     cloudlog.exception("failed to set core affinity")
 
   params = Params()
-  dongle_id = params.get("DongleId", encoding='utf-8')
+  dongle_id = params.get("DongleId")
   UploadQueueCache.initialize(upload_queue)
 
   ws_uri = ATHENA_HOST + "/ws/v2/" + dongle_id
